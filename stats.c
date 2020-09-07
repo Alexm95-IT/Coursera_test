@@ -43,7 +43,7 @@ void main() {
 }
 
 void print_statistics(unsigned char * input_char_var, unsigned int array_size){
-
+//Test 
 }
 
 void print_array(unsigned char * input_char_var, unsigned int array_size){
