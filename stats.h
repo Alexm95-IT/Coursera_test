@@ -22,20 +22,88 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
+/**
+ * @brief Prints some statistics of an unsigned char list of integers
+ *
+ * This function take as input an unsigned char array of integer values. 
+ * Will print the minimum, maximum, mean and median value of the provided array.
+ *
+ * @param input_char_var The unsigned char variable containing the list of integers
+ *
+ * @return print the statistics on screen 
+ */
+void print_statistics(unsigned char * input_char_var, unsigned int array_size);
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief Print the unsigned char list of integers given as input
  *
- * <Add Extended Description Here>
+ * This function take as input an unsigned char array of integer values. 
+ * Will print the array.
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param input_char_var The unsigned char variable containing the list of integers
  *
- * @return <Add Return Informaiton here>
+ * @return print the array on screen 
  */
+void print_array(unsigned char * input_char_var, unsigned int array_size);
 
+/**
+ * @brief Return the median of the array passed as input
+ *
+ * This function take as input an unsigned char array of integer values. 
+ * Will output a float value containing the median of the array provided in the input.
+ *
+ * @param input_char_var The unsigned char variable containing the list of integers
+ *
+ * @return a float value containing the median of the array provided in the input 
+ */
+float find_median(unsigned char * input_char_var, unsigned int array_size);
+
+/**
+ * @brief Return the mean of the array passed as input
+ *
+ * This function take as input an unsigned char array of integer values. 
+ * Will output a float value containing the mean of the array provided in the input.
+ *
+ * @param input_char_var The unsigned char variable containing the array of integers
+ *
+ * @return a float value containing the mean of the array provided in the input 
+ */
+float find_mean(unsigned char * input_char_var, unsigned int array_size);
+
+/**
+ * @brief Return the maximum of the array passed as input
+ *
+ * This function take as input an unsigned char array of integer values. 
+ * Will output a integer value containing the maximum of the array provided in the input.
+ *
+ * @param input_char_var The unsigned char variable containing the array of integers
+ *
+ * @return a integer value containing the maximum of the array provided in the input 
+ */
+unsigned int find_maximum(unsigned char * input_char_var, unsigned int array_size);
+
+/**
+ * @brief Return the minimum of the array passed as input
+ *
+ * This function take as input an unsigned char array of integer values. 
+ * Will output a integer value containing the minimum of the array provided in the input.
+ *
+ * @param input_char_var The unsigned char variable containing the array of integers
+ *
+ * @return a integer value containing the minimum of the array provided in the input 
+ */
+unsigned int find_minimum(unsigned char * input_char_var, unsigned int array_size);
+
+/**
+ * @brief Return the array provided in input sorted from largest to smallest
+ *
+ * This function take as input an unsigned char array of integer values. 
+ * Will output an unsigned char array containing the sorted array provided in the input.
+ *
+ * @param input_char_var The unsigned char variable containing the array of integers
+ *	
+ * @return an unsigned char array containing the sorted array provided in the input 
+ */
+unsigned char sort_array(unsigned char * input_char_var, unsigned int array_size);
 
 #endif /* __STATS_H__ */

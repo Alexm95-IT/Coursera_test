@@ -42,4 +42,32 @@ void main() {
 
 }
 
+void print_statistics(unsigned char * input_char_var, unsigned int array_size){
+
+}
+
+void print_array(unsigned char * input_char_var, unsigned int array_size){
+
+}
+
+float find_median(unsigned char * input_char_var, unsigned int array_size){
+
+}
+
+float find_mean(unsigned char * input_char_var, unsigned int array_size){
+
+}
+
+unsigned int find_maximum(unsigned char * input_char_var, unsigned int array_size){
+
+}
+
+unsigned int find_minimum(unsigned char * input_char_var, unsigned int array_size){
+
+}
+
+unsigned char sort_array(unsigned char * input_char_var, unsigned int array_size){
+
+}
+
 /* Add other Implementation File Code Here */
